@@ -1,0 +1,28 @@
+{
+  "name": "pure-raw",
+  "version": "1.0.0",
+  "description": "This is an undiluted codes from my brain",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon server.js",
+    "start":"node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cellsy003/Pure-Raw.git"
+  },
+  "author": "Cellsy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cellsy003/Pure-Raw/issues"
+  },
+  "homepage": "https://github.com/Cellsy003/Pure-Raw#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
